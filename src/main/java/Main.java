@@ -5,14 +5,17 @@ public class Main {
 
         //Очередь
         Queue q = new Queue(5);
+        //Заполнили
         q.insert(10);
         q.insert(20);
         q.insert(30);
         q.insert(40);
         q.insert(50);
+        //Удалили 2
         q.remove();
         q.remove();
 
+        //Еще добавили 4
         q.insert(50);
         q.insert(60);
         q.insert(70);
